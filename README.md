@@ -14,11 +14,12 @@ This is an example pet name generator app used in the OpenAI API [quickstart tut
    $ cd openai-quickstart-python
    ```
 
-4. Create a new virtual environment
+4. Create a new virtual environment with `pyenv`
 
    ```bash
-   $ python -m venv venv
-   $ . venv/bin/activate
+   $ pyenv init
+   $ exec "$SHELL"
+   $ pyenv version
    ```
 
 5. Install the requirements
